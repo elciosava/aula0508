@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+    background-color: #dbdbdb;
+}
+
+a {
+    text-decoration: none;
+    color: #181818;
+    padding: 10px 15px;
+}
+
+#inicio {
+    background-color: #6ebb54;
+    padding: 20px;
+    height: 100vh
+}
+
+#cadastrar {
+    background-color: #54aabb;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+}
+
+.formulario {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#listar {
+    background-color: #b254bb;
+    padding: 20px;
+    height: calc(100vh - 60px);
+}
