@@ -6,6 +6,7 @@
 
 body {
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 header {
@@ -52,7 +53,7 @@ a {
     align-items: center;
 }
 
-form {
+.formu {
     width: 300px;
 }
 
@@ -74,4 +75,39 @@ input {
     background-color: #b254bb;
     padding: 20px;
     height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+table form {
+    width: auto;
+}
+
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.paginacao a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
 }
